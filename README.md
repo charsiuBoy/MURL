@@ -13,6 +13,6 @@ Then you just pass in my simulator (`Sol` class) like so:
 `sim = Sol(engine, x, init, np.float64(1e-3)) ` (dt = 10^-3)
 
 Then you can see how it evolves:
-`visualizer(x, init, 1)`
+`visualizer(x, sim, 1)`
 The '1' indicates the video speed. If you want twice the speed, then:
-`visualizer(x, init, 2)`
+`visualizer(x, sim, 2)`
